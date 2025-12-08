@@ -1,0 +1,7 @@
+-xc-header
+-Iinclude
+-std=c23
+-Wall
+-Wextra
+-Werror
+-Wpedantic
