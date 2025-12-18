@@ -13,6 +13,10 @@ int main(int argc, char** argv) {
       extern void day1(void);
       day1();
       break;
+    case 2:
+      extern void day2(void);
+      day2();
+      break;
     // Add more cases for additional days as needed
     default:
       fprintf(stderr, "Day %d is not implemented yet.\n", day);
